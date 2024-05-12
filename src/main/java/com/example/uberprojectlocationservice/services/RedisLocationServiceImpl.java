@@ -14,7 +14,7 @@ import java.util.List;
 public class RedisLocationServiceImpl implements LocationService{
 
     private static final String DRIVER_GEO_OPS_KEY = "drivers";
-    private static final Double SEARCH_RADIUS = 100.0;
+    private static final Double SEARCH_RADIUS = 5.0;
 
     private final StringRedisTemplate stringRedisTemplate;
 
